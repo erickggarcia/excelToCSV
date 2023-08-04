@@ -1,0 +1,434 @@
+[
+  {
+    "col": "command",
+    "type": "string",
+    "required": true,
+    "size": 1
+  },
+  {
+    "col": "description",
+    "type": "string",
+    "required": true,
+    "size": 100
+  },
+  {
+    "col": "alternativeIdentifier",
+    "type": "string",
+    "required": true,
+    "size": 100
+  },
+  {
+    "col": "corporateName",
+    "type": "string",
+    "required": true,
+    "size": 100
+  },
+  {
+    "col": "country",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "state",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "city",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "cityNeighborhood",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "streetType",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "street",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "streetNumber",
+    "type": "number",
+    "required": false,
+    "size": 18
+  },
+  {
+    "col": "streetComplement",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "zipCode",
+    "type": "string",
+    "required": false,
+    "size": 10
+  },
+  {
+    "col": "cellphoneIdd",
+    "type": "number",
+    "required": false,
+    "size": 18
+  },
+  {
+    "col": "cellphoneStd",
+    "type": "number",
+    "required": false,
+    "size": 18
+  },
+  {
+    "col": "cellphoneNumber",
+    "type": "number",
+    "required": false,
+    "size": 18
+  },
+  {
+    "col": "phoneIdd",
+    "type": "number",
+    "required": false,
+    "size": 18
+  },
+  {
+    "col": "phoneStd",
+    "type": "number",
+    "required": false,
+    "size": 18
+  },
+  {
+    "col": "phoneNumber",
+    "type": "number",
+    "required": false,
+    "size": 18
+  },
+  {
+    "col": "email",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "observation",
+    "type": "string",
+    "required": false,
+    "size": 1000
+  },
+  {
+    "col": "serviceLocalType",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "serviceLocalClassification",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "level6",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "levelA",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "levelX",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "local3Dimension",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "accountableTeam",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_cluster",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_regional",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_cnpj",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_ddd",
+    "type": "number",
+    "required": true,
+    "size": 100
+  },
+  {
+    "col": "CF_LIVE_TIM",
+    "type": "string",
+    "required": false,
+    "size": 10
+  },
+  {
+    "col": "CF_LIVE_TIM",
+    "type": "string",
+    "required": false,
+    "size": 30
+  },
+  {
+    "col": "CF_subregional",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_db",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_chave_tim",
+    "type": "string",
+    "required": true,
+    "size": 100
+  },
+  {
+    "col": "CF_segmento_tratado",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_situacao_pdv",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_cluster_abastecimento",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_inadimplente",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_camada_final",
+    "type": "string",
+    "required": true,
+    "size": 100
+  },
+  {
+    "col": "CF_curva_tratado",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_chave_operacaol",
+    "type": "string",
+    "required": false,
+    "size": 100
+  },
+  {
+    "col": "CF_db1",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "CF_codigo_db",
+    "type": "number",
+    "required": false,
+    "size": 20
+  },
+  {
+    "col": "CF_telefone_gerente_geral",
+    "type": "string",
+    "required": false,
+    "size": 20
+  },
+  {
+    "col": "CF_email_gerente_geral",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "CF_nome_coordenador",
+    "type": "string",
+    "required": false,
+    "size": 150
+  },
+  {
+    "col": "CF_matricula_coordenador",
+    "type": "string",
+    "required": false,
+    "size": 10
+  },
+  {
+    "col": "CF_telefone_coordenador",
+    "type": "string",
+    "required": false,
+    "size": 20
+  },
+  {
+    "col": "CF_email_coordenador",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "CF_nome_gerente_vendas_1",
+    "type": "string",
+    "required": false,
+    "size": 150
+  },
+  {
+    "col": "CF_matricula_gerente_vendas_1",
+    "type": "string",
+    "required": false,
+    "size": 10
+  },
+  {
+    "col": "CF_telefone_gerente_vendas_1",
+    "type": "string",
+    "required": false,
+    "size": 20
+  },
+  {
+    "col": "CF_email_gerente_vendas_1",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "CF_nome_gerente_vendas_2",
+    "type": "string",
+    "required": false,
+    "size": 150
+  },
+  {
+    "col": "CF_matricula_gerente_vendas_2",
+    "type": "string",
+    "required": false,
+    "size": 10
+  },
+  {
+    "col": "CF_telefone_gerente_vendas_2",
+    "type": "string",
+    "required": false,
+    "size": 20
+  },
+  {
+    "col": "CF_email_gerente_vendas_2",
+    "type": "string",
+    "required": false,
+    "size": 50
+  },
+  {
+    "col": "CF_tipo_loja",
+    "type": "string",
+    "required": false,
+    "size": 30
+  },
+  {
+    "col": "CF_LIVE_TIM",
+    "type": "string",
+    "required": false,
+    "size": 10
+  },
+  {
+    "col": "CF_operadora_n1",
+    "type": "string",
+    "required": false,
+    "size": 2000
+  },
+  {
+    "col": "CF_CANAL_N3",
+    "type": "string",
+    "required": false,
+    "size": 2000
+  },
+  {
+    "col": "CF_CANAL_N4",
+    "type": "string",
+    "required": false,
+    "size": 2000
+  },
+  {
+    "col": "CF_grupo_economico",
+    "type": "string",
+    "required": false,
+    "size": 2000
+  },
+  {
+    "col": "CF_segmento_grupo_economico",
+    "type": "string",
+    "required": false,
+    "size": 2000
+  },
+  {
+    "col": "CF_TIPO_ATENDIMENTO",
+    "type": "string",
+    "required": false,
+    "size": 2000
+  },
+  {
+    "col": "CF_FORMA_DE_AUDITORIA",
+    "type": "string",
+    "required": false,
+    "size": 2000
+  },
+  {
+    "col": "CF_custcode_nivel_75",
+    "type": "string",
+    "required": false,
+    "size": 2000
+  },
+  {
+    "col": "CF_cobertura_ultrafibra",
+    "type": "string",
+    "required": false,
+    "size": 5
+  },
+  {
+    "col": "CF_CNPJ",
+    "type": "string",
+    "required": false,
+    "size": 2000
+  }
+]
